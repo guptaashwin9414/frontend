@@ -207,7 +207,7 @@ const Home = () => {
            
            <Link to="/donation">
              <div className="ru d-flex flex-column justify-content-center">
-                <div className="mt-4 text-center ms-2" style={{color: "white",fontSize:"18px"}}>Donation</div>
+                <div className="mt-4 text-center ms-" style={{color: "white",fontSize:"18px"}}>Donation</div>
               </div>
            </Link>
             
