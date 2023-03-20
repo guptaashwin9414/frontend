@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "../Styles/directions.css";
 import Navbarhome from "./Navbar";
