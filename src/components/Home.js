@@ -212,9 +212,7 @@ const Home = () => {
               </div>
            </a>
 
-             <div className="ru d-flex flex-column justify-content-center">
-                <div className="mt-4 text-center ms-" style={{color: "white",fontSize:"18px"}}>Donation</div>
-              </div>
+             
            
             
           </div>
