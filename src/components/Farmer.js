@@ -37,7 +37,7 @@ function Farmer() {
                 <div className="card">
                     <div className="card-body text-center">
                         <div className="card-img pt-2 pb-3"> <img src={("../assets/img/image1.png")} alt=""/> </div>
-                        <div className="name h5"><a href="http://127.0.0.1:5500/html_files/practice.html">Best Practice Suggestion</a></div>
+                        <Link to="/practices"><div className="name h5">Best Practice Suggestion</div></Link>
                         <div className="testimonial"> Know about the latest farming and irrigation techniques to maximize their production </div>
                     </div>
                 </div>

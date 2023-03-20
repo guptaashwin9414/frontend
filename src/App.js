@@ -17,6 +17,7 @@ import Directions from "./components/Directions";
 import Budgeting from "./components/Budgeting";
 import Volunteering from "./components/VolunteeringPage";
 import Cropsuggestion from "./components/Cropsuggestion";
+import Practice from "./components/Practice";
 
 // import { useUserAuth } from "./context/UserAuthContext";
 // import axios from "axios";
@@ -62,6 +63,7 @@ function App() {
 
         <Route path="/budgeting" element={<Budgeting />} />
         <Route path="/cropsuggestion" element={<Cropsuggestion />} />
+        <Route path="/practices" element={<Practice />} />
 
         <Route path="/Volunteering" element={<Volunteering />} />
         <Route path="*" element={<Reg />} />
