@@ -205,11 +205,11 @@ const Home = () => {
               </div>
             </Link>
            
-           <a href="http://127.0.0.1:5500/html_files/donation.html">
+           <Link to="/donation">
              <div className="ru d-flex flex-column justify-content-center">
                 <div className="mt-4 text-center ms-2" style={{color: "white",fontSize:"18px"}}>Donation</div>
               </div>
-           </a>
+           </Link>
             
           </div>
 
