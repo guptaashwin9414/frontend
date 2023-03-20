@@ -19,7 +19,7 @@ import Volunteering from "./components/VolunteeringPage";
 import Cropsuggestion from "./components/Cropsuggestion";
 import Practice from "./components/Practice";
 import Videotut from "./components/videotut";
-import Donation from "./components/Donation";
+// import Donation from "./components/Donation";
 
 // import { useUserAuth } from "./context/UserAuthContext";
 // import axios from "axios";
@@ -67,7 +67,7 @@ function App() {
         <Route path="/cropsuggestion" element={<Cropsuggestion />} />
         <Route path="/practices" element={<Practice />} />
         <Route path="/videotut" element={<Videotut />} />
-        <Route path="/donation" element={<Donation />} />
+        {/* <Route path="/donation" element={<Donation />} /> */}
 
         <Route path="/Volunteering" element={<Volunteering />} />
         <Route path="*" element={<Reg />} />

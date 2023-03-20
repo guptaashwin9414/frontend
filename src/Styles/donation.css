@@ -65,7 +65,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgb(210, 227, 215);
-  background-image: url("../components/img/donation.png");
+  /* background-image: url("../components/img/donation.png"); */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
