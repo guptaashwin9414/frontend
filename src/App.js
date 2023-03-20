@@ -11,6 +11,8 @@ import Company from "./components/Company";
 import Farmer from "./components/Farmer";
 import Cropform from "./components/Cropform";
 import Gautam from "./components/Gautam";
+import Foodcertification from "./components/Foodcertification"
+// import Cropdata from "./components/Cropdata"
 
 import Directions from "./components/Directions";
 
@@ -62,6 +64,13 @@ function App() {
         <Route path="/budgeting" element={<Budgeting />} />
 
         <Route path="/Volunteering" element={<Volunteering />} />
+        <Route path="/foodcertification" element={<Foodcertification/>} />
+        {/* <Route path="/Cropdata" element={<Cropdata/>} /> */}
+
+
+        
+        
+
         <Route path="*" element={<Reg />} />
       </Routes>
     </UserAuthContextProvider>
