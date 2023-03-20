@@ -1,0 +1,9 @@
+{
+    "build": {
+      "command": "npm run build",
+      "env": {
+        "CI": "true"
+      },
+      "use": "@vercel/node"
+    }
+  }
