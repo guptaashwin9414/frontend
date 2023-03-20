@@ -61,7 +61,7 @@ function Navbarhome() {
       </Navbar.Collapse>
       <Nav className='ms-2 me-0 nav navbar-nav navbar-right ml-auto'>
         <Nav.Link href="#home" className='navbar-nav pull-right'><Link to="/directions">Food Bank Locator</Link></Nav.Link>
-        <Nav.Link href="#">Video Based Tutorials</Nav.Link>
+        <Nav.Link href="">Video Based Tutorials</Nav.Link>
       </Nav>
     </Navbar>
   );
